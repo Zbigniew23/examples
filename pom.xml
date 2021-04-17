@@ -16,6 +16,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
+    <maven/>
   </properties>
 
   <dependencies>
@@ -34,14 +35,7 @@
       <scope>test</scope>
     </dependency>
 
-    <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
-    <dependency>
-      <groupId>io.rest-assured</groupId>
-      <artifactId>rest-assured</artifactId>
-      <version>4.3.3</version>
-      <scope>test</scope>
-    </dependency>
-
+   
     <dependency>
       <groupId>io.appium</groupId>
       <artifactId>java-client</artifactId>
